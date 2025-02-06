@@ -1,0 +1,147 @@
+*{
+    padding: 0;
+    margin: 0;
+    transition: ease 0.5s;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    scroll-behavior: smooth;
+    font-size: 100%;
+}
+body{
+    background-color: #7ee353;
+    overflow-x: hidden;
+}
+
+header{
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+    background-color: #fff;
+}
+nav{
+    position: relative;
+    right: 10px;
+}
+
+nav li {
+    list-style: none;
+    display: inline-block;
+    margin: 10px;
+}
+nav li a {
+    text-decoration: none;
+    color: #000;
+    font-size: 18px;
+    text-transform: uppercase;
+
+}
+
+header img {
+    width: 150px;
+}
+
+.main-sec {
+    background-image: url(images/hero-bg.jpg);
+    height: 600px;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+}
+.title {
+    font-size: 100px;
+    text-orientation: upright;
+    color: #fff;
+    position: relative;
+    left: 10%;
+}
+
+.overlay {
+    width: 100%;
+    height: 100%;
+    background-image: linear-gradient(#2c5819, #5ea73f0b);
+    position: absolute;
+    top: 0;
+    opacity: 0.5;
+    z-index: 1;
+}
+.boxing{
+    padding: 45px;
+    background-image: url(images/about-bg.jpg);
+    background-size: 70%;
+    background-position: right;
+    height: 300px;
+    background-repeat: no-repeat;
+    margin-top: 25px;
+    display: flex;
+    justify-content: center;
+}
+
+.section-box{
+    color:#fff;
+    text-align: left;
+    width: 35%;
+    padding: 15px;
+    background-color: #b3dba336;
+}
+.section-box button {
+    border: none;
+    padding: 10px;
+    background-color: #000;
+    color: #fff;
+    margin-top: 10px;
+}
+.box{
+    margin-top: 30px;
+    display:flex;
+    justify-content: space-around;
+}
+.kik-box{
+    padding: 10px;
+   background-color: #000;
+   color: #fff;
+   text-align: center;
+   width: 45%;
+}
+
+.kik-box img{
+    width: 100%;
+}
+.kik-box button {
+    padding: 10px;
+    margin-top: 10px;
+}
+.kik-box p {
+    padding: 10px;
+    font-size: 16px;
+    line-height: 1.6;
+}
+.container{
+    width:  100%;
+}
+.contact {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 35px;
+    border-top: #7d8c76 2px solid;
+    padding: 15px;
+}
+.map,.form{
+    width: 48%;
+}
+.form input, textarea {
+    border: none;
+    padding: 12px;
+    border-radius: 10px;
+    width: 100%;
+    margin-top: 12px;
+    background-color: #0b1b04;
+    color: #fff;
+}
+.form button {
+    padding: 10px 20px;
+    display: block;
+    margin: 15px auto;
+}
+.mapouter{position:relative;text-align:right;width:100%;height:400px;}
+.gmap_canvas {overflow:hidden;background:none!important;width:100%;height:400px;}
+.gmap_iframe {height:400px!important;}
+
